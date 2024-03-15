@@ -5,6 +5,7 @@ body {
   margin-right: 200px;
   margin-left: 217px;
   align-content: center;
+  overflow: hidden;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
   width: 100%;
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   background-repeat: no-repeat;
-  background-size: 1400px;
+  background-size: cover;
 }
 
 .fight-bar {
@@ -24,13 +25,4 @@ body {
   left: 450px;
   height: 39px;
   width: 400px;
-}
-
-@keyframes jump-perso {
-  0% {
-    top: 130px;
-  }
-  25% {
-    top: 80px;
-  }
 }
