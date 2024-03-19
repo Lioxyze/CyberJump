@@ -1,28 +1,44 @@
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
-  width: 841px;
-  height: 213px;
+  width: 841vw;
+  height: 100%;
   margin-right: 200px;
   margin-left: 217px;
   align-content: center;
   overflow: hidden;
 }
 
+:root {
+  --animation-time: 7s;
+}
+
 .container {
   border: 10px solid black;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100%;
+  height: 607px;
+  width: 867px;
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
-  background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
 }
 
-.fight-bar {
-  position: relative;
-  bottom: 384px;
-  left: 450px;
-  height: 39px;
-  width: 400px;
+.mechant {
+  animation: mob var(--animation-time) ease alternate infinite;
+}
+
+@keyframes mob {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 840px;
+  }
+}
+
+#score {
+  color: aliceblue;
+  bottom: 561px;
+  left: 242px;
+  position: fixed;
 }
