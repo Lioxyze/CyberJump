@@ -42,3 +42,93 @@ body {
   left: 242px;
   position: fixed;
 }
+
+.container-modal {
+  z-index: 1;
+  position: absolute;
+  top: 320px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+}
+
+.close-modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 138vw;
+  height: 107vh;
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.container--modal {
+  display: block;
+}
+
+.button-close {
+  position: absolute;
+  top: 6%;
+  left: 85%;
+  border-radius: 50%;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+  padding: 6px 8px 6px 6px;
+  border-radius: 999px;
+  background-color: #e84fbf;
+  transition: background-color 1s ease 0s;
+  box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
+}
+
+.header-modal {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.button-modal-sup {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+  padding: 12px 64px;
+  border-radius: 999px;
+}
+
+.container-modal .close-modal .header-modal .text-header-modal h1 {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+
+.container-modal .close-modal .header-modal .text-header-modal p {
+  font-size: smaller;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.overlay {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: #000000;
+  -webkit-box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
+  box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
+  border-radius: 999px;
+  transition: background-color 1s ease 0s;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+.fond-overlay {
+  background-color: #000000;
+  z-index: 2;
+  border: 500px;
+}
