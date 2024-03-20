@@ -1,4 +1,38 @@
 // Sélectionne le conteneur
+console.log(`Hello ECMA Script !`);
+
+// Contenneur de la modal fait maison (via first className)
+let Modal = document.getElementById("modal");
+// Element de background de la modal
+const ModalBackground = document.getElementById("modal-bg");
+// Boutton sortie de modal.
+const ModalExitBtn = document.getElementById("modal-close-btn");
+// Boutton de validation du cookie
+const ModalValidateBtn = document.getElementById("modal-validate-btn");
+// Appel du body DOM
+const Body = document.body;
+
+// Event du boutton d'acceptation des cookies
+ModalValidateBtn.addEventListener("click", () => {
+  // Cacher le background de la modal
+  ModalBackground.style.display = "none";
+  // Toggle le overflow du body
+  Body.classList.toggle("no-scroll");
+
+  //score
+  function updateScore() {
+    score++; // Incrémente le score
+    document.getElementById("score").innerText = score; // Met à jour l'affichage du score
+  }
+
+  let score = 0; // Initialise le score à 0
+  updateScore(); // Met à jour l'affichage initial du score
+  setInterval(updateScore, 1000);
+  let audio = new Audio("assets/img/musique-jeux.mp3");
+  audio.volume = 0.01;
+  audio.play();
+});
+
 let container = document.querySelector(".container");
 
 // Crée les images pour les personnages
@@ -41,19 +75,12 @@ container.appendChild(Perso1);
 container.appendChild(Perso2);
 container.appendChild(mechant);
 
-// Sélectionne David et Lucy
+// Sélectionne David, Lucy
 let david = document.querySelector(".david");
 let lucy = document.querySelector(".lucy");
+let mechantElement = document.querySelector(".mechant");
 
 // Définit une fonction pour mettre à jour le score
-function updateScore() {
-  score++; // Incrémente le score
-  document.getElementById("score").innerText = score; // Met à jour l'affichage du score
-}
-
-let score = 0; // Initialise le score à 0
-updateScore(); // Met à jour l'affichage initial du score
-setInterval(updateScore, 1000);
 
 // Permet de bloquer l'animation et d'exécuter qu'une fois
 let CantJumpDavid = false;
@@ -69,6 +96,9 @@ document.body.onkeyup = function (e) {
     david.style.bottom = "300px";
     david.style.transition = "1s";
     setTimeout(() => {
+      let audio = new Audio("assets/img/bruit-de-pas.mp3");
+      audio.volume = 1;
+      audio.play();
       david.classList.add("transition");
       david.style.bottom = "180px";
       setTimeout(() => {
@@ -77,15 +107,15 @@ document.body.onkeyup = function (e) {
     }, 999);
   }
 
-  // Met à jour le score
-  updateScore();
-
   // Permet d'exécuter le saut de Lucy sur la touche Space
   if ((e.key == " " || e.code == "Space" || e.keyCode == 32) && !CantJumpLucy) {
     CantJumpLucy = true;
     lucy.style.bottom = "300px";
     lucy.style.transition = "1s";
     setTimeout(() => {
+      let audio = new Audio("assets/img/bruit-de-pas.mp3");
+      audio.volume = 1;
+      audio.play();
       lucy.classList.add("transition");
       lucy.style.bottom = "180px";
       setTimeout(() => {
@@ -94,31 +124,34 @@ document.body.onkeyup = function (e) {
     }, 999);
   }
 
-  // let david = { x: 5, y: 5 };
-  // let mechant = { x: 20, y: 10 };
+  // Fonction pour détecter la collision
+  function detecterCollision() {
+    // Positions des éléments
+    var rect1 = david.getBoundingClientRect();
+    var rect2 = lucy.getBoundingClientRect();
+    var rect4 = mechantElement.getBoundingClientRect();
 
-  // if (
-  //   david.x < mechant.x + mechant.width &&
-  //   david.x + david.width > mechant.x &&
-  //   david.y < mechant.y + mechant.height &&
-  //   david.height + david.y > mechant.y
-  // ) {
-  //   // collision détectée !
-  // }
+    // Vérifier s'il y a chevauchement
+    if (
+      (rect1.right >= rect4.left &&
+        rect1.left <= rect4.right &&
+        rect1.bottom >= rect4.top &&
+        rect1.top <= rect4.bottom) ||
+      (rect2.right >= rect4.left &&
+        rect2.left <= rect4.right &&
+        rect2.bottom >= rect4.top &&
+        rect2.top <= rect4.bottom)
+    ) {
+      let audio = new Audio("assets/img/roblox.mp3;");
+      audio.volume = 1;
+      audio.play();
+
+      location.reload();
+
+      // Afficher une alerte lorsque la collision est détectée
+    }
+  }
+
+  // Appel de la fonction à intervalles réguliers (par exemple, toutes les 100 ms)
+  setInterval(detecterCollision, 100);
 };
-// const random = document.querySelector(".mechant");
-// random.style.setProperty("--animation-time", time + "s");
-
-//   if (e.keyCode == "37") {
-//     positionXMario -= 30;
-//     mario.style.left = `${positionXMario}px`;
-//     mario.style.transition = "1s";
-//   } else if (e.keyCode == "39") {
-//     positionXMario += 30;
-//     mario.style.left = `${positionXMario}px  `;
-//     mario.style.transition = "1s";
-//   }
-// };
-
-// const random = document.querySelector(".mechant");
-// random.style.setProperty("--animation-time", time + "s");
