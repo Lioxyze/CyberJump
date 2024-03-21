@@ -6,15 +6,11 @@ let ModalBackground = document.getElementById("modal-bg");
 let ModalExitBtn = document.getElementById("modal-close-btn");
 // Boutton de validation du cookie
 let ModalValidateBtn = document.getElementById("modal-validate-btn");
-// Appel du body DOM
-let Body = document.body;
 
 // Event du boutton start
 ModalValidateBtn.addEventListener("click", () => {
   // Cacher le background de la modal
   ModalBackground.style.display = "none";
-  // Toggle le overflow du body
-  Body.classList.toggle("no-scroll");
 
   //score
   function updateScore() {
@@ -30,7 +26,7 @@ ModalValidateBtn.addEventListener("click", () => {
   audio1.play();
 });
 
-let container = document.querySelector(".container");
+let container = document.querySelector(".Perso");
 
 // Crée les images pour les personnages
 let Perso1 = document.createElement("img");
