@@ -1,36 +1,4 @@
-// Contenneur de la modal fait maison (via first className)
-let Modal = document.getElementById("modal");
-// Element de background de la modal
-let ModalBackground = document.getElementById("modal-bg");
-// Boutton sortie de modal.
-let ModalExitBtn = document.getElementById("modal-close-btn");
-// Boutton de validation du cookie
-let ModalValidateBtn = document.getElementById("modal-validate-btn");
-// Appel du body DOM
-let Body = document.body;
-
-// Event du boutton start
-ModalValidateBtn.addEventListener("click", () => {
-  // Cacher le background de la modal
-  ModalBackground.style.display = "none";
-  // Toggle le overflow du body
-  Body.classList.toggle("no-scroll");
-
-  //score
-  function updateScore() {
-    score++; // Incrémente le score
-    document.getElementById("score").innerText = score; // Met à jour l'affichage du score
-  }
-
-  let score = 0; // Initialise le score à 0
-  updateScore(); // Met à jour l'affichage initial du score
-  setInterval(updateScore, 1000);
-  let audio1 = new Audio("assets/img/musique-jeux.mp3");
-  audio1.volume = masterVolume;
-  audio1.play();
-});
-
-let container = document.querySelector(".container");
+let containerSolo = document.querySelector(".containerSolo");
 
 // Crée les images pour les personnages
 let Perso1 = document.createElement("img");
@@ -75,15 +43,15 @@ mechant.classList.add("mechant");
 logo.classList.add("logo");
 
 // Ajoute les personnages au conteneur
-container.appendChild(Perso1);
-container.appendChild(Perso2);
-container.appendChild(mechant);
-container.appendChild(logo);
+containerSolo.appendChild(Perso1);
+containerSolo.appendChild(Perso2);
+containerSolo.appendChild(mechant);
+containerSolo.appendChild(logo);
 
 // Sélectionne David, Lucy
-let david = document.querySelector(".david");
-let lucy = document.querySelector(".lucy");
-let mechantElement = document.querySelector(".mechant");
+let david1 = document.querySelector(".david");
+let lucy2 = document.querySelector(".lucy");
+let mechantElement2 = document.querySelector(".mechant");
 
 // Permet de bloquer l'animation et d'exécuter qu'une fois
 
@@ -109,13 +77,13 @@ document.body.onkeyup = function (e) {
     CantJumpDavid = true;
     audio2.volume = masterVolume;
     audio2.play();
-    david.style.bottom = "300px";
-    david.style.transition = "0.9s";
+    david1.style.bottom = "300px";
+    david1.style.transition = "0.9s";
     setTimeout(() => {
       audio3.volume = masterVolume;
       audio3.play();
-      david.classList.add("transition");
-      david.style.bottom = "180px";
+      david1.classList.add("transition");
+      david1.style.bottom = "180px";
       setTimeout(() => {
         CantJumpDavid = false;
       }, 1000);
@@ -129,13 +97,14 @@ document.body.onkeyup = function (e) {
     audio4.volume = masterVolume;
 
     audio4.play();
-    lucy.style.bottom = "300px";
-    lucy.style.transition = "0.9s";
+    lucy2.style.bottom = "300px";
+    lucy2.style.transition = "0.9s";
     setTimeout(() => {
+      const audio5 = new Audio("assets/img/bruit-de-pas.mp3");
       audio5.volume = masterVolume;
       audio5.play();
-      lucy.classList.add("transition");
-      lucy.style.bottom = "180px";
+      lucy2.classList.add("transition");
+      lucy2.style.bottom = "180px";
       setTimeout(() => {
         CantJumpLucy = false;
       }, 1000);
@@ -145,8 +114,8 @@ document.body.onkeyup = function (e) {
   // Fonction pour détecter la collision
   function detecterCollision() {
     // Positions des éléments
-    var rect1 = david.getBoundingClientRect();
-    var rect2 = lucy.getBoundingClientRect();
+    var rect1 = david1.getBoundingClientRect();
+    var rect2 = lucy2.getBoundingClientRect();
     var rect4 = mechantElement.getBoundingClientRect();
 
     // Vérifier s'il y a collision
@@ -162,11 +131,6 @@ document.body.onkeyup = function (e) {
     ) {
       //Permet de reload la pqge une fois la mort
       setInterval(location.reload(), 1);
-
-      // Afficher une alerte lorsque la collision est détectée
     }
   }
-
-  // Appel de la fonction à intervalles réguliers (par exemple, toutes les 100 ms)
-  setInterval(detecterCollision, 100);
 };

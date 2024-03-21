@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-  --animation-time: 7s;
+  --animation-time: 4s;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
 }
 
 .mechant {
+  animation-delay: 10s;
   animation: mob var(--animation-time) ease alternate infinite;
 }
 
@@ -32,7 +33,7 @@ body {
     left: 0px;
   }
   100% {
-    left: 840px;
+    left: 810px;
   }
 }
 
@@ -41,6 +42,8 @@ body {
   bottom: 561px;
   left: 242px;
   position: fixed;
+  font-family: "Orbitron", sans-serif;
+  font-size: larger;
 }
 
 .container-modal {
@@ -83,35 +86,15 @@ body {
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
   padding: 12px 64px;
   border-radius: 999px;
-}
-
-.container-modal .close-modal .header-modal .text-header-modal h1 {
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-}
-
-.container-modal .close-modal .header-modal .text-header-modal p {
-  font-size: smaller;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-}
-
-.overlay {
-  text-decoration: none;
-  text-transform: capitalize;
-  font-weight: 600;
-  background-color: #000000;
-  -webkit-box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
-  box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
-  border-radius: 999px;
-  transition: background-color 1s ease 0s;
-  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+  font-family: "Orbitron", sans-serif;
+  font-size: larger;
 }
 
 .fond-overlay {
   background-color: #000000;
   z-index: 2;
   border: 500px;
+}
+
+.logo {
 }
