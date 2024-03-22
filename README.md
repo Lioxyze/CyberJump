@@ -12,9 +12,7 @@ Le principe est très simple le but est de survivre en 1 v 1 en esquivant Farada
 ## Les touche :
 
 Pour sauter : 
-
-![https://cdn.discordapp.com/attachments/1213050633322496040/1220664052787838976/png-clipart-eraser-2-v1-7-space-and-return-keyboard-buttons-thumbnail.png?ex=660fc2fd&is=65fd4dfd&hm=70dfdfaef62c59c7a40660830f4af45523d539bb69afeb362f84ead6309b30f6&
-
-
+![png-clipart-eraser-2-v1-7-space-and-return-keyboard-buttons-thumbnail](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
+![png-clipart-eraser-2-v1-7-space-and-return-keyboard-buttons-thumbnail (1)](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
 
 
