@@ -1,6 +1,6 @@
 # Cyber Jump
 
-## Presentation :
+## Présentation :
 
 Un jeu qui se joue avec votre ami de classe parter a l'aventure de cyber Jump .
 
@@ -8,7 +8,7 @@ Un jeu qui se joue avec votre ami de classe parter a l'aventure de cyber Jump .
 
 Le principe est très simple le but est de survivre en 1 v 1 en esquivant Faraday votre ennemi numéro 1.
 
-## Les touche :
+## Les touches :
 
 Pour sauter :
 
