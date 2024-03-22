@@ -21,21 +21,9 @@ ModalValidateBtn.addEventListener("click", () => {
   let score = 0; // Initialise le score à 0
   updateScore(); // Met à jour l'affichage initial du score
   setInterval(updateScore, 1000);
-<<<<<<< HEAD
-<<<<<<< HEAD
-  let audio = new Audio("assets/img/musique-jeux.mp3");
-  audio.volume = 0.01;
-  audio.play();
-=======
   let audio1 = new Audio("assets/img/music-8bit.mp3");
   audio1.volume = masterVolume;
   audio1.play();
->>>>>>> c140fff (uPDATE)
-=======
-  let audio1 = new Audio("assets/img/music-8bit.mp3");
-  audio1.volume = masterVolume;
-  audio1.play();
->>>>>>> 3944b7d24c6e8261610052c772a8a90cd37c703a
 });
 
 let container = document.querySelector(".container");
