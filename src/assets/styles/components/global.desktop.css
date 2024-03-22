@@ -1,11 +1,21 @@
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
-  width: 841vw;
-  height: 100%;
-  margin-right: 200px;
-  margin-left: 217px;
+  width: 100%;
+  height: 100vh;
   align-content: center;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 :root {
@@ -13,15 +23,12 @@ body {
 }
 
 .container {
-  border: 10px solid black;
-  display: flex;
-  flex-direction: column;
-  height: 607px;
-  width: 867px;
+  height: 100%;
+  width: 100%;
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   background-size: cover;
-  position: fixed;
   box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
 .mechant {
@@ -34,25 +41,23 @@ body {
     left: 0px;
   }
   100% {
-    left: 810px;
+    left: 1320px;
   }
 }
 
 #score {
   color: aliceblue;
-  bottom: 561px;
-  left: 242px;
-  position: fixed;
+  bottom: 669px;
+  left: 116px;
+  position: ABSOLUTE;
   font-family: "Orbitron", sans-serif;
   font-size: larger;
 }
 
 .container-modal {
   z-index: 1;
-  position: absolute;
-  top: 320px;
-  left: 700px;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
 }
 
 .close-modal {
@@ -60,8 +65,8 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 15px;
-  width: 1416px;
-  height: 676px;
+  width: 100%;
+  height: 100%;
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
   align-items: center;
@@ -100,9 +105,9 @@ body {
 }
 
 .fond-overlay {
-  background-color: #000000;
   z-index: 2;
-  border: 500px;
+  width: 100%;
+  height: 100vh;
 }
 
 .insta {

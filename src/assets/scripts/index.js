@@ -11,6 +11,7 @@ let ModalValidateBtn = document.getElementById("modal-validate-btn");
 ModalValidateBtn.addEventListener("click", () => {
   // Cacher le background de la modal
   ModalBackground.style.display = "none";
+  container.style.display = "block";
 
   //score
   function updateScore() {
@@ -53,16 +54,16 @@ mechant.style.position = "absolute";
 logoCorp.style.position = "absolute";
 
 // Règle la position des personnages
-Perso1.style.right = "450px";
-Perso2.style.right = "250px";
+Perso1.style.right = "800px";
+Perso2.style.right = "400px";
 mechant.style.right = "2000px";
 logoCorp.style.right = "25px";
 
 // Règle la position des personnages
-Perso1.style.bottom = "180px";
-Perso2.style.bottom = "180px";
-mechant.style.bottom = "190px";
-logoCorp.style.bottom = "530px";
+Perso1.style.bottom = "230px";
+Perso2.style.bottom = "230px";
+mechant.style.bottom = "230px";
+logoCorp.style.bottom = "700px";
 
 // Ajoute une classe pour chaque personnage
 Perso1.classList.add("david");
@@ -107,13 +108,13 @@ document.body.onkeyup = function (e) {
     CantJumpDavid = true;
     audio2.volume = masterVolume;
     audio2.play();
-    david.style.bottom = "300px";
+    david.style.bottom = "400px";
     david.style.transition = "0.9s";
     setTimeout(() => {
       audio3.volume = masterVolume;
       audio3.play();
       david.classList.add("transition");
-      david.style.bottom = "180px";
+      david.style.bottom = "230px";
       setTimeout(() => {
         CantJumpDavid = false;
       }, 1000);
@@ -126,13 +127,13 @@ document.body.onkeyup = function (e) {
     let audio4 = new Audio("assets/img/saut.wav");
     audio4.volume = masterVolume;
     audio4.play();
-    lucy.style.bottom = "300px";
+    lucy.style.bottom = "400px";
     lucy.style.transition = "0.9s";
     setTimeout(() => {
       audio5.volume = masterVolume;
       audio5.play();
       lucy.classList.add("transition");
-      lucy.style.bottom = "180px";
+      lucy.style.bottom = "230px";
       setTimeout(() => {
         CantJumpLucy = false;
       }, 1000);
