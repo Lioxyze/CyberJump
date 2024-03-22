@@ -1,3 +1,33 @@
+var elem = document.querySelector(".container");
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    /* IE11 */
+    elem.msRequestFullscreen();
+    domReady(fonction);
+  }
+}
+
+var elem = document.querySelector(".container");
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    /* IE11 */
+    elem.msRequestFullscreen();
+    domReady(fonction);
+  }
+}
+
 // Contenneur de la modal fait maison (via first className)
 let Modal = document.getElementById("modal");
 // Element de background de la modal
@@ -48,10 +78,10 @@ mechant.style.height = "50PX";
 logoCorp.style.height = "50px";
 
 // Règle la position des personnages
-Perso1.style.position = "absolute";
-Perso2.style.position = "absolute";
-mechant.style.position = "absolute";
-logoCorp.style.position = "absolute";
+Perso1.style.position = "fixed";
+Perso2.style.position = "fixed";
+mechant.style.position = "fixed";
+logoCorp.style.position = "fixed";
 
 // Règle la position des personnages
 Perso1.style.right = "800px";
