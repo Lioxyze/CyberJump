@@ -38,10 +38,10 @@ body {
 
 @keyframes mob {
   0% {
-    left: 0px;
+    left: 0%;
   }
   100% {
-    left: 1320px;
+    left: 100%;
   }
 }
 
