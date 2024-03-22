@@ -4,7 +4,7 @@
 
 Un jeu qui se joue avec votre ami de classe parter a l'aventure de cyber Jump .
 
-### Regle :
+## Regle :
 
 Le principe est très simple le but est de survivre en 1 v 1 en esquivant Faraday votre ennemi numéro 1.
 
