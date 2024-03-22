@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-  --animation-time: 7s;
+  --animation-time: 4s;
 }
 
 .container {
@@ -21,9 +21,11 @@ body {
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   background-size: cover;
   position: fixed;
+  box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 .mechant {
+  animation-delay: 10s;
   animation: mob var(--animation-time) ease alternate infinite;
 }
 
@@ -32,7 +34,7 @@ body {
     left: 0px;
   }
   100% {
-    left: 840px;
+    left: 810px;
   }
 }
 
@@ -41,6 +43,8 @@ body {
   bottom: 561px;
   left: 242px;
   position: fixed;
+  font-family: "Orbitron", sans-serif;
+  font-size: larger;
 }
 
 .container-modal {
@@ -58,7 +62,7 @@ body {
   border-radius: 15px;
   width: 1416px;
   height: 676px;
-  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
@@ -83,35 +87,37 @@ body {
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
   padding: 12px 64px;
   border-radius: 999px;
+  font-family: "Orbitron", sans-serif;
+  font-size: larger;
+  margin: 10px;
 }
 
-.container-modal .close-modal .header-modal .text-header-modal h1 {
-  font-size: x-large;
+.button-close-modal {
+  position: absolute;
+  top: 388px;
   display: flex;
-  justify-content: center;
-}
-
-.container-modal .close-modal .header-modal .text-header-modal p {
-  font-size: smaller;
   flex-direction: column;
-  align-items: center;
-  display: flex;
-}
-
-.overlay {
-  text-decoration: none;
-  text-transform: capitalize;
-  font-weight: 600;
-  background-color: #000000;
-  -webkit-box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
-  box-shadow: 1px 1px 15px 5px rgba(194, 194, 194, 0.28);
-  border-radius: 999px;
-  transition: background-color 1s ease 0s;
-  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
 }
 
 .fond-overlay {
   background-color: #000000;
   z-index: 2;
   border: 500px;
+}
+
+.insta {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+}
+
+.youtube {
+  position: absolute;
+  top: 10px;
+  right: 250px;
+}
+
+.logo {
+  position: relative;
+  top: -99px;
 }
