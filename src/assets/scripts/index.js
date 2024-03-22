@@ -21,60 +21,60 @@ ModalValidateBtn.addEventListener("click", () => {
   let score = 0; // Initialise le score à 0
   updateScore(); // Met à jour l'affichage initial du score
   setInterval(updateScore, 1000);
-  let audio1 = new Audio("assets/img/musique-jeux.mp3");
+  let audio1 = new Audio("assets/img/music-8bit.mp3");
   audio1.volume = masterVolume;
   audio1.play();
 });
 
-let container = document.querySelector(".Perso");
+let container = document.querySelector(".container");
 
 // Crée les images pour les personnages
 let Perso1 = document.createElement("img");
 let Perso2 = document.createElement("img");
 let mechant = document.createElement("img");
-let logo = document.createElement("img");
+let logoCorp = document.createElement("img");
 
 // Intègre l'image
 Perso1.src = "assets/img/Personnage.PNG";
 Perso2.src = "assets/img/Lucy.png";
 mechant.src = "assets/img/jacob-hogan-hoverenemy-idle1.gif";
-logo.src = "assets/img/LioCorp-20-03-2024.gif";
+logoCorp.src = "assets/img/LioCorp-20-03-2024.gif";
 
 // Règle la taille des personnages
 Perso1.style.height = "100px";
 Perso2.style.height = "100px";
 mechant.style.height = "50PX";
-logo.style.height = "50px";
+logoCorp.style.height = "50px";
 
 // Règle la position des personnages
 Perso1.style.position = "absolute";
 Perso2.style.position = "absolute";
 mechant.style.position = "absolute";
-logo.style.position = "absolute";
+logoCorp.style.position = "absolute";
 
 // Règle la position des personnages
 Perso1.style.right = "450px";
 Perso2.style.right = "250px";
 mechant.style.right = "2000px";
-logo.style.right = "25px";
+logoCorp.style.right = "25px";
 
 // Règle la position des personnages
 Perso1.style.bottom = "180px";
-Perso2.style.bottom = "175px";
-mechant.style.bottom = "175px";
-logo.style.bottom = "530px";
+Perso2.style.bottom = "180px";
+mechant.style.bottom = "190px";
+logoCorp.style.bottom = "530px";
 
 // Ajoute une classe pour chaque personnage
 Perso1.classList.add("david");
 Perso2.classList.add("lucy");
 mechant.classList.add("mechant");
-logo.classList.add("logo");
+logoCorp.classList.add("logoCorp");
 
 // Ajoute les personnages au conteneur
 container.appendChild(Perso1);
 container.appendChild(Perso2);
 container.appendChild(mechant);
-container.appendChild(logo);
+container.appendChild(logoCorp);
 
 // Sélectionne David, Lucy
 let david = document.querySelector(".david");
@@ -84,17 +84,19 @@ let mechantElement = document.querySelector(".mechant");
 // Permet de bloquer l'animation et d'exécuter qu'une fois
 
 //Config General Du Son
-const audio1 = new Audio("assets/img/musique-jeux.mp3");
+const audio1 = new Audio("assets/img/music-8bit.mp3");
 const audio2 = new Audio("assets/img/saut.wav");
 const audio3 = new Audio("assets/img/bruit-de-pas.mp3");
 const audio4 = new Audio("assets/img/saut.wav");
 const audio5 = new Audio("assets/img/bruit-de-pas.mp3");
+const audio6 = new Audio("assets/img/roblox.mp3");
 const masterVolume = 0.03;
 audio1.volume = masterVolume;
 audio2.volume = masterVolume;
 audio3.volume = masterVolume;
 audio4.volume = masterVolume;
 audio5.volume = masterVolume;
+audio6.volume = masterVolume;
 
 let CantJumpDavid = false;
 let CantJumpLucy = false;
@@ -123,7 +125,6 @@ document.body.onkeyup = function (e) {
     CantJumpLucy = true;
     let audio4 = new Audio("assets/img/saut.wav");
     audio4.volume = masterVolume;
-
     audio4.play();
     lucy.style.bottom = "300px";
     lucy.style.transition = "0.9s";
@@ -141,9 +142,9 @@ document.body.onkeyup = function (e) {
   // Fonction pour détecter la collision
   function detecterCollision() {
     // Positions des éléments
-    var rect1 = david.getBoundingClientRect();
-    var rect2 = lucy.getBoundingClientRect();
-    var rect4 = mechantElement.getBoundingClientRect();
+    let rect1 = david.getBoundingClientRect();
+    let rect2 = lucy.getBoundingClientRect();
+    let rect4 = mechantElement.getBoundingClientRect();
 
     // Vérifier s'il y a collision
     if (
@@ -166,3 +167,7 @@ document.body.onkeyup = function (e) {
   // Appel de la fonction à intervalles réguliers (par exemple, toutes les 100 ms)
   setInterval(detecterCollision, 100);
 };
+
+function fermerFenetreCourante() {
+  window.close();
+}

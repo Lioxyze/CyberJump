@@ -21,6 +21,7 @@ body {
   background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   background-size: cover;
   position: fixed;
+  box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 .mechant {
@@ -61,7 +62,7 @@ body {
   border-radius: 15px;
   width: 1416px;
   height: 676px;
-  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+  background-image: url(https://cdn.discordapp.com/attachments/1217469104680865803/1217849397988167751/Fond_Jeux_Video.gif?ex=660585a3&is=65f310a3&hm=9b1e53562ba59edce24916f6e01fd5c75b2e55732a004ea3642df219aac85286&);
   box-shadow: 0px -5px 20px 5px rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
@@ -88,6 +89,14 @@ body {
   border-radius: 999px;
   font-family: "Orbitron", sans-serif;
   font-size: larger;
+  margin: 10px;
+}
+
+.button-close-modal {
+  position: absolute;
+  top: 388px;
+  display: flex;
+  flex-direction: column;
 }
 
 .fond-overlay {
@@ -96,5 +105,19 @@ body {
   border: 500px;
 }
 
+.insta {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+}
+
+.youtube {
+  position: absolute;
+  top: 10px;
+  right: 250px;
+}
+
 .logo {
+  position: relative;
+  top: -99px;
 }
