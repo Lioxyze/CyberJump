@@ -1,3 +1,11 @@
+<head>
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+    }
+  </style>
+</head>
+
 Bienvenue dans le monde captivant de Cyber Jump, où l'aventure et l'action vous attendent à chaque étape de votre parcours !
 
 # ![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
@@ -26,6 +34,8 @@ Dans ce duel en face-à-face, votre but est de rester en vie en évitant **Farad
   - Utilisez la touche **flèche vers le haut** pour le personnage de droite :
 
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
+
+Pour profiter un max du jeu veuillez vous mettre en résolution de 1366 X 768!!
 
 Pour plus d'informations et pour nous suivre sur d'autres plateformes :
 
