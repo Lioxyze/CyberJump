@@ -25,3 +25,9 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
 
+Pour plus d'informations et pour nous suivre sur d'autres plateformes :
+
+- Instagram: [Lien Instagram]([https://www.instagram.com/votrecompte](https://www.instagram.com/lioxyze/))
+- Discord: [Lien Discord]([https://discord.gg/votreserveur](https://discord.gg/XkrwNYER4q))
+- Twitter: [Lien Twitter]([https://twitter.com/votrecompte](https://twitter.com/lioxyze))
+- Twitch: [Lien Twitch]([https://www.twitch.tv/votrecompte](https://www.twitch.tv/lioxyze)https://www.twitch.tv/lioxyze)
