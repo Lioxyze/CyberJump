@@ -8,6 +8,8 @@ Dans ce jeu palpitant, conçu pour être partagé avec votre ami de classe, vous
 
 La clé de la victoire réside dans votre agilité et votre rapidité. Pour sauter par-dessus les obstacles et éviter les attaques de Faraday, vous devez maîtriser les commandes avec précision.
 
+Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire votre propre légende dans le monde de Cyber Jump !
+
 ## Règles :
 
 Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday**, votre ennemi redoutable.
@@ -23,6 +25,3 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
 
-## Pour toi Netrunner :
-     - Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire votre propre légende dans le monde de Cyber Jump !
-     
