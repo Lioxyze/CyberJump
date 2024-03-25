@@ -1,6 +1,3 @@
-
-https://cyberjumplioxyze.netlify.app/
-
 # ![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
 
 ## Présentation :
@@ -29,6 +26,8 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
 
 Pour plus d'informations et pour nous suivre sur d'autres plateformes :
+
+- Jeux : https://cyberjumplioxyze.netlify.app/
 
 - Instagram: [Lien Instagram](https://www.instagram.com/lioxyze/)
 - Discord: [Lien Discord](https://discord.gg/XkrwNYER4q)
