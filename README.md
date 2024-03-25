@@ -1,21 +1,35 @@
-# Cyber Jump
+# ![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
 
 ## Présentation :
 
-Un jeu qui se joue avec votre ami de classe parter a l'aventure de cyber Jump .
+Bienvenue dans le monde captivant de Cyber **Jump**, où l'aventure et l'action vous attendent à chaque étape de votre parcours !
 
-## Regle :
+Dans ce jeu palpitant, conçu pour être partagé avec votre ami de classe, vous plongerez dans un face à face intense en 1 contre 1. Votre mission ? Survivre à tout prix en esquivant Faraday, votre ennemi juré.
 
-Le principe est très simple le but est de survivre en 1 v 1 en esquivant Faraday votre ennemi numéro 1.
+La clé de la victoire réside dans votre agilité et votre rapidité. Pour sauter par-dessus les obstacles et éviter les attaques de Faraday, vous devez maîtriser les commandes avec précision.
 
-## Les touches :
+Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire votre propre légende dans le monde de Cyber Jump !
 
-Pour sauter :
+## Règles :
 
-Utiliser la touche espace pour le personnage de gauche :
+Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday**, votre ennemi redoutable.
 
-![png-clipart-eraser-2-v1-7-space-and-return-keyboard-buttons-thumbnail](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
+## Contrôles :
 
-Utiliser la touche fleche de haut pour le personnage de droite :
+- **Pour sauter :**
+  - Utilisez la touche **espace** pour le personnage de gauche :
 
-![png-clipart-eraser-2-v1-7-space-and-return-keyboard-buttons-thumbnail (1)](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
+    ![Touche Espace](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
+
+  - Utilisez la touche **flèche vers le haut** pour le personnage de droite :
+
+    ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
+
+Pour plus d'informations et pour nous suivre sur d'autres plateformes :
+
+- Jeux : https://cyberjumplioxyze.netlify.app/
+
+- Instagram: [Lien Instagram](https://www.instagram.com/lioxyze/)
+- Discord: [Lien Discord](https://discord.gg/XkrwNYER4q)
+- Twitter: [Lien Twitter](https://twitter.com/lioxyze)
+- Twitch: [Lien Twitch](https://www.twitch.tv/lioxyze)
