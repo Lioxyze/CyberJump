@@ -1,4 +1,5 @@
-# <span style="color: #ff5733;">![Logo Jeux 500 PX](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/c820e413-f208-4500-a6d8-a3637c776887)</span>
+# <span style="color: #ff5733;">![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
+  </span>
 
 
 ## <span style="color: #ffbd69;">Présentation :</span>
