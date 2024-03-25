@@ -40,16 +40,16 @@ ModalValidateBtn.addEventListener("click", () => {
 ////////////////////////
 
 //function qui permet de metre en fullscreen au clique sur (Joueur 2)
-let elem = document.querySelector(".container");
+// let elem = document.querySelector(".container");
 
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) {
-    elem.msRequestFullscreen();
-    domReady(fonction);
-  }
-}
+// function openFullscreen() {
+//   if (elem.requestFullscreen) {
+//     elem.requestFullscreen();
+//   } else if (elem.webkitRequestFullscreen) {
+//     elem.msRequestFullscreen();
+//     domReady(fonction);
+//   }
+// }
 
 //////////////////////////////////////
 ////////Creation des personnage //////
@@ -77,7 +77,7 @@ mechant.style.height = "50PX";
 logoCorp.style.height = "50px";
 
 // Règle la position des personnages
-Perso1.style.position = "fixed";
+Perso1.style.position = "absolute";
 Perso2.style.position = "fixed";
 mechant.style.position = "fixed";
 logoCorp.style.position = "fixed";
@@ -210,7 +210,7 @@ document.body.onkeyup = function (e) {
 };
 
 ////////////////////////////////////////////////
-////////Fermer Le jeux dans le menu ///////////
+////////Fermer Le jeux avec le bouton Exit ///////////
 //////////////////////////////////////////////
 
 function fermerFenetreCourante() {
