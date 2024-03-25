@@ -1,3 +1,5 @@
+Bienvenue dans le monde captivant de Cyber Jump, où l'aventure et l'action vous attendent à chaque étape de votre parcours !
+
 # ![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
 
 ## Présentation :
