@@ -1,18 +1,16 @@
-# <span style="color: #ff5733;">![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
-  </span>
+# ![Logo Jeux](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/35e2b095-b750-42df-9b49-51d756cce8a7)
 
+## Présentation :
 
-## <span style="color: #ffbd69;">Présentation :</span>
+Bienvenue dans **Cyber Jump**, un jeu d'aventure palpitant conçu pour être joué avec votre ami de classe.
 
-Bienvenue dans **<span style="color: #ff5733;">Cyber Jump</span>**, un jeu d'aventure palpitant conçu pour être joué avec votre ami de classe.
-
-## <span style="color: #ffbd69;">Règles :</span>
+## Règles :
 
 Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday**, votre ennemi redoutable.
 
-## <span style="color: #ffbd69;">Contrôles :</span>
+## Contrôles :
 
-- **<span style="color: #ff5733;">Pour sauter :</span>**
+- **Pour sauter :**
   - Utilisez la touche **espace** pour le personnage de gauche :
 
     ![Touche Espace](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
