@@ -38,4 +38,4 @@ Maquette du jeux : https://www.figma.com/file/bkKiFiRNjTfNDMXDlLoKE0/Maquette-Cy
 - Twitter: [Lien Twitter](https://twitter.com/lioxyze)
 - Twitch: [Lien Twitch](https://www.twitch.tv/lioxyze)
 
-Crée par @Lioxyze
+Crée par [@Lioxyze](https://github.com/Lioxyze)
