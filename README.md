@@ -22,3 +22,6 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
   - Utilisez la touche **flèche vers le haut** pour le personnage de droite :
 
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
+
+##
+    Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire votre propre légende dans le monde de Cyber Jump !
