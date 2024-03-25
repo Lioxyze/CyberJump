@@ -27,7 +27,7 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 
 Pour plus d'informations et pour nous suivre sur d'autres plateformes :
 
-- Instagram: [Lien Instagram](https://www.instagram.com/lioxyze/)
-- Discord: [Lien Discord](https://discord.gg/XkrwNYER4q)
-- Twitter: [Lien Twitter](https://twitter.com/lioxyze)
-- Twitch: [Lien Twitch](https://www.twitch.tv/lioxyze)
+- [![Logo Instagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png)](https://www.instagram.com/lioxyze/)
+- [![Logo Discord](https://discord.com/assets/6debd47ed13483642cf09e832ed0bc1b.png)](https://discord.gg/XkrwNYER4q)
+- [![Logo Twitter](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png)](https://twitter.com/lioxyze)
+- [![Logo Twitch](https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Twitch_logo_2019.svg/1280px-Twitch_logo_2019.svg.png)](https://www.twitch.tv/lioxyze)
