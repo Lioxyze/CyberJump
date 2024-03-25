@@ -1,3 +1,9 @@
+window.onload = function () {
+  if (window.innerWidth !== 1366 || window.innerHeight !== 768) {
+    window.resizeTo(1366, 768);
+  }
+};
+
 ////////////////////////
 ////////Modal Menu//////
 ////////////////////////
@@ -39,17 +45,17 @@ ModalValidateBtn.addEventListener("click", () => {
 ////////Fullscreen//////
 ////////////////////////
 
-//function qui permet de metre en fullscreen au clique sur (Joueur 2)
-// let elem = document.querySelector(".container");
+// function qui permet de metre en fullscreen au clique sur (Joueur 2)
+let elem = document.querySelector(".container");
 
-// function openFullscreen() {
-//   if (elem.requestFullscreen) {
-//     elem.requestFullscreen();
-//   } else if (elem.webkitRequestFullscreen) {
-//     elem.msRequestFullscreen();
-//     domReady(fonction);
-//   }
-// }
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    elem.msRequestFullscreen();
+    domReady(fonction);
+  }
+}
 
 //////////////////////////////////////
 ////////Creation des personnage //////
