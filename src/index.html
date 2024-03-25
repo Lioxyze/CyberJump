@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="assets/styles/components/global.mobile.css" />
     <title>CyberJump</title>
   </head>
-  <body>
+  <body onload="javascript:fullwin()">
     <div class="fond-overlay" id="modal-bg">
       <div class="container-modal" id="modal">
         <div class="close-modal">
@@ -34,7 +35,7 @@
           <div class="header-modal">
             <div class="text-header-modal"></div>
             <div class="button-close-modal">
-              <button class="button-modal-sup" id="#">1 JOUEUR</button>
+              <button class="button-modal-sup" id="myBtn">Regle</button>
               <button
                 onclick="openFullscreen()"
                 class="button-modal-sup"
@@ -49,6 +50,27 @@
               >
                 EXIT
               </button>
+
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <pre class="modal-regle">
+Dans ce duel en face-à-face, 
+votre but est de rester en vie en évitant Faraday, 
+votre redoutable adversaire.
+
+Pour sauter :
+
+Utilisez la touche espace pour le personnage de gauche :
+
+Touche Espace pour le personnage de gauche
+
+Utilisez la touche flèche vers le haut pour le personnage de droite :
+</pre
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
