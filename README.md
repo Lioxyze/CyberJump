@@ -12,7 +12,7 @@ Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire v
 
 ## Règles :
 
-Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday**, votre ennemi redoutable.
+Dans ce duel en face-à-face, votre but est de rester en vie en évitant **Faraday**, votre redoutable adversaire.
 
 ## Contrôles :
 
