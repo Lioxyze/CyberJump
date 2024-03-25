@@ -19,15 +19,15 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 - **Pour sauter :**
   - Utilisez la touche **espace** pour le personnage de gauche :
 
-    ![Touche Espace](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
+    [![Touche Espace](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)](https://github.com/Lioxyze/Video-Game-Brief-2)
 
   - Utilisez la touche **flèche vers le haut** pour le personnage de droite :
 
-    ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
+    [![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)](https://github.com/Lioxyze/Video-Game-Brief-2)
 
 Pour plus d'informations et pour nous suivre sur d'autres plateformes :
 
-- [![Logo Instagram](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png)](https://www.instagram.com/lioxyze/)
-- [![Logo Discord](https://discord.com/assets/6debd47ed13483642cf09e832ed0bc1b.png)](https://discord.gg/XkrwNYER4q)
-- [![Logo Twitter](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png)](https://twitter.com/lioxyze)
-- [![Logo Twitch](https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Twitch_logo_2019.svg/1280px-Twitch_logo_2019.svg.png)](https://www.twitch.tv/lioxyze)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Logo Instagram" width="100"/>](https://www.instagram.com/lioxyze/)
+- [<img src="https://discord.com/assets/6debd47ed13483642cf09e832ed0bc1b.png" alt="Logo Discord" width="100"/>](https://discord.gg/XkrwNYER4q)
+- [<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png" alt="Logo Twitter" width="100"/>](https://twitter.com/lioxyze)
+- [<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Twitch_logo_2019.svg/1280px-Twitch_logo_2019.svg.png" alt="Logo Twitch" width="100"/>](https://www.twitch.tv/lioxyze)
