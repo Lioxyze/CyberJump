@@ -12,7 +12,7 @@ Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire v
 
 ## Règles :
 
-Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday**, votre ennemi redoutable.
+Dans ce duel en face-à-face, votre but est de rester en vie en évitant **Faraday**, votre redoutable adversaire.
 
 ## Contrôles :
 
@@ -25,11 +25,17 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 
     ![Touche Flèche vers le haut](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/d8ee14a8-8569-47a5-8ca5-7fc873573440)
 
+Pour profiter un max du jeu veuillez vous mettre en résolution de 1366 X 768!!
+
 Pour plus d'informations et pour nous suivre sur d'autres plateformes :
 
 - Jeux : https://cyberjumplioxyze.netlify.app/
+
+Maquette du jeux : https://www.figma.com/file/bkKiFiRNjTfNDMXDlLoKE0/Maquette-CyberJump?type=design&node-id=0%3A1&mode=dev
 
 - Instagram: [Lien Instagram](https://www.instagram.com/lioxyze/)
 - Discord: [Lien Discord](https://discord.gg/XkrwNYER4q)
 - Twitter: [Lien Twitter](https://twitter.com/lioxyze)
 - Twitch: [Lien Twitch](https://www.twitch.tv/lioxyze)
+
+Crée par https://github.com/Lioxyze
