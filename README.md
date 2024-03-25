@@ -2,7 +2,11 @@
 
 ## Présentation :
 
-Bienvenue dans **Cyber Jump**, un jeu d'aventure palpitant conçu pour être joué avec votre ami de classe.
+Bienvenue dans le monde captivant de Cyber **Jump**, où l'aventure et l'action vous attendent à chaque étape de votre parcours !
+
+Dans ce jeu palpitant, conçu pour être partagé avec votre ami de classe, vous plongerez dans un face à face intense en 1 contre 1. Votre mission ? Survivre à tout prix en esquivant Faraday, votre ennemi juré.
+
+La clé de la victoire réside dans votre agilité et votre rapidité. Pour sauter par-dessus les obstacles et éviter les attaques de Faraday, vous devez maîtriser les commandes avec précision.
 
 ## Règles :
 
