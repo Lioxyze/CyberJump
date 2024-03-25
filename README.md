@@ -13,8 +13,7 @@ Dans ce jeu en 1 contre 1, votre objectif est de survivre en esquivant **Faraday
 - **Pour sauter :**
   - Utilisez la touche **espace** pour le personnage de gauche :
 
-   ![espace-25-03-2024](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/5757b823-6337-4894-9bb1-aec9e1216a17)
-
+    ![Touche Espace](https://github.com/Lioxyze/Video-Game-Brief-2/assets/160881557/7738ef60-05db-4f7b-96a0-5f1d50e4131b)
 
   - Utilisez la touche **flèche vers le haut** pour le personnage de droite :
 
