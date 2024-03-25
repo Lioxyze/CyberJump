@@ -1,19 +1,8 @@
-let elem = document.querySelector(".container");
+////////////////////////
+////////Modal Menu//////
+////////////////////////
 
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) {
-    /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) {
-    /* IE11 */
-    elem.msRequestFullscreen();
-    domReady(fonction);
-  }
-}
-
-// Contenneur de la modal fait maison (via first className)
+// Contenneur de la modal
 let Modal = document.getElementById("modal");
 // Element de background de la modal
 let ModalBackground = document.getElementById("modal-bg");
@@ -28,12 +17,16 @@ ModalValidateBtn.addEventListener("click", () => {
   ModalBackground.style.display = "none";
   container.style.display = "block";
 
-  //score
+  ////////////////////////
+  ////////Score///////////
+  ////////////////////////
+
+  //Score en temps reel le score augmente de 1 tout les seconde//
+
   function updateScore() {
     score++; // Incrémente le score
     document.getElementById("score").innerText = score; // Met à jour l'affichage du score
   }
-
   let score = 0; // Initialise le score à 0
   updateScore(); // Met à jour l'affichage initial du score
   setInterval(updateScore, 1000);
@@ -42,6 +35,27 @@ ModalValidateBtn.addEventListener("click", () => {
   audio1.play();
 });
 
+////////////////////////
+////////Fullscreen//////
+////////////////////////
+
+//function qui permet de metre en fullscreen au clique sur (Joueur 2)
+let elem = document.querySelector(".container");
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    elem.msRequestFullscreen();
+    domReady(fonction);
+  }
+}
+
+//////////////////////////////////////
+////////Creation des personnage //////
+//////////////////////////////////////
+
+// Contenneur de la modal
 let container = document.querySelector(".container");
 
 // Crée les images pour les personnages
@@ -92,12 +106,14 @@ container.appendChild(Perso2);
 container.appendChild(mechant);
 container.appendChild(logoCorp);
 
-// Sélectionne David, Lucy
+// Sélectionne David, Lucy, Mechant
 let david = document.querySelector(".david");
 let lucy = document.querySelector(".lucy");
 let mechantElement = document.querySelector(".mechant");
 
-// Permet de bloquer l'animation et d'exécuter qu'une fois
+//////////////////
+////////Son //////
+//////////////////
 
 //Config General Du Son
 const audio1 = new Audio("assets/img/music-8bit.mp3");
@@ -114,9 +130,15 @@ audio4.volume = masterVolume;
 audio5.volume = masterVolume;
 audio6.volume = masterVolume;
 
+//////////////////////////////////////
+////////Mecanique du saut ///////////
+//////////////////////////////////////
+
+// Permet de bloquer l'animation et d'exécuter qu'une fois
 let CantJumpDavid = false;
 let CantJumpLucy = false;
 
+//Personnage David //
 // Permet d'exécuter le saut de David sur la touche ArrowUp
 document.body.onkeyup = function (e) {
   if (e.code == "Space" && !CantJumpDavid) {
@@ -136,6 +158,7 @@ document.body.onkeyup = function (e) {
     }, 999);
   }
 
+  //Personnage Lucy //
   // Permet d'exécuter le saut de Lucy sur la touche Space
   if (e.code == "ArrowUp" && !CantJumpLucy) {
     CantJumpLucy = true;
@@ -154,6 +177,10 @@ document.body.onkeyup = function (e) {
       }, 1000);
     }, 999);
   }
+
+  //////////////////////////////////////
+  ////////Colision Personnage ///////////
+  //////////////////////////////////////
 
   // Fonction pour détecter la collision
   function detecterCollision() {
@@ -175,8 +202,6 @@ document.body.onkeyup = function (e) {
     ) {
       //Permet de reload la pqge une fois la mort
       setInterval(location.reload(), 1);
-
-      // Afficher une alerte lorsque la collision est détectée
     }
   }
 
@@ -184,6 +209,189 @@ document.body.onkeyup = function (e) {
   setInterval(detecterCollision, 100);
 };
 
+////////////////////////////////////////////////
+////////Fermer Le jeux dans le menu ///////////
+//////////////////////////////////////////////
+
 function fermerFenetreCourante() {
   window.close();
 }
+
+// ///////////////////////////////////////////////////////////////////////////
+// ////////Version Poo De mon code qui na pas etait fait par moi  ///////////
+// //////////////////////////////////////////////////////////////////////////
+
+// class ModalMenu {
+//   constructor() {
+//     this.modal = document.getElementById("modal");
+//     this.modalBackground = document.getElementById("modal-bg");
+//     this.modalExitBtn = document.getElementById("modal-close-btn");
+//     this.modalValidateBtn = document.getElementById("modal-validate-btn");
+//     this.container = document.querySelector(".container");
+//     this.score = 0;
+//     this.masterVolume = 0.03;
+//     this.audio1 = new Audio("assets/img/music-8bit.mp3");
+//     this.audio1.volume = this.masterVolume;
+
+//     this.modalValidateBtn.addEventListener("click", () => this.startGame());
+//   }
+
+//   startGame() {
+//     this.modalBackground.style.display = "none";
+//     this.container.style.display = "block";
+//     this.updateScore();
+//     setInterval(() => this.updateScore(), 1000);
+//     this.audio1.play();
+//   }
+
+//   updateScore() {
+//     this.score++;
+//     document.getElementById("score").innerText = this.score;
+//   }
+// }
+
+// class Fullscreen {
+//   constructor() {
+//     this.elem = document.querySelector(".container");
+//     document
+//       .querySelector("#modal-validate-btn")
+//       .addEventListener("click", () => this.openFullscreen());
+//   }
+
+//   openFullscreen() {
+//     if (this.elem.requestFullscreen) {
+//       this.elem.requestFullscreen();
+//     } else if (this.elem.webkitRequestFullscreen) {
+//       this.elem.msRequestFullscreen();
+//     }
+//   }
+// }
+
+// class Character {
+//   constructor(imageSrc, className, height, right, bottom) {
+//     this.image = document.createElement("img");
+//     this.image.src = imageSrc;
+//     this.image.style.height = height;
+//     this.image.style.position = "fixed";
+//     this.image.style.right = right;
+//     this.image.style.bottom = bottom;
+//     this.image.classList.add(className);
+//   }
+
+//   addToContainer(container) {
+//     container.appendChild(this.image);
+//   }
+// }
+
+// class Sound {
+//   constructor(source, volume) {
+//     this.audio = new Audio(source);
+//     this.audio.volume = volume;
+//   }
+
+//   play() {
+//     this.audio.play();
+//   }
+// }
+
+// // Main
+// const modalMenu = new ModalMenu();
+// const fullscreen = new Fullscreen();
+
+// const david = new Character(
+//   "assets/img/Personnage.PNG",
+//   "david",
+//   "100px",
+//   "800px",
+//   "230px"
+// );
+// const lucy = new Character(
+//   "assets/img/Lucy.png",
+//   "lucy",
+//   "100px",
+//   "400px",
+//   "230px"
+// );
+// const mechant = new Character(
+//   "assets/img/jacob-hogan-hoverenemy-idle1.gif",
+//   "mechant",
+//   "50px",
+//   "2000px",
+//   "230px"
+// );
+// const logoCorp = new Character(
+//   "assets/img/LioCorp-20-03-2024.gif",
+//   "logoCorp",
+//   "50px",
+//   "25px",
+//   "700px"
+// );
+
+// david.addToContainer(document.querySelector(".container"));
+// lucy.addToContainer(document.querySelector(".container"));
+// mechant.addToContainer(document.querySelector(".container"));
+// logoCorp.addToContainer(document.querySelector(".container"));
+
+// const audio1 = new Sound("assets/img/music-8bit.mp3", 0.03);
+// const audio2 = new Sound("assets/img/saut.wav", 0.03);
+// const audio3 = new Sound("assets/img/bruit-de-pas.mp3", 0.03);
+// const audio4 = new Sound("assets/img/saut.wav", 0.03);
+// const audio5 = new Sound("assets/img/bruit-de-pas.mp3", 0.03);
+// const audio6 = new Sound("assets/img/roblox.mp3", 0.03);
+
+// // Mechanic du saut
+// document.body.onkeyup = function (e) {
+//   let CantJumpDavid = false;
+//   let CantJumpLucy = false;
+
+//   if (e.code == "Space" && !CantJumpDavid) {
+//     CantJumpDavid = true;
+//     audio2.play();
+//     david.image.style.bottom = "400px";
+//     david.image.style.transition = "0.9s";
+//     setTimeout(() => {
+//       audio3.play();
+//       david.image.classList.add("transition");
+//       david.image.style.bottom = "230px";
+//       setTimeout(() => {
+//         CantJumpDavid = false;
+//       }, 1000);
+//     }, 999);
+//   }
+
+//   if (e.code == "ArrowUp" && !CantJumpLucy) {
+//     CantJumpLucy = true;
+//     audio4.play();
+//     lucy.image.style.bottom = "400px";
+//     lucy.image.style.transition = "0.9s";
+//     setTimeout(() => {
+//       audio5.play();
+//       lucy.image.classList.add("transition");
+//       lucy.image.style.bottom = "230px";
+//       setTimeout(() => {
+//         CantJumpLucy = false;
+//       }, 1000);
+//     }, 999);
+//   }
+
+//   function detectCollision() {
+//     let rect1 = david.image.getBoundingClientRect();
+//     let rect2 = lucy.image.getBoundingClientRect();
+//     let rect4 = mechant.image.getBoundingClientRect();
+
+//     if (
+//       (rect1.right >= rect4.left &&
+//         rect1.left <= rect4.right &&
+//         rect1.bottom >= rect4.top &&
+//         rect1.top <= rect4.bottom) ||
+//       (rect2.right >= rect4.left &&
+//         rect2.left <= rect4.right &&
+//         rect2.bottom >= rect4.top &&
+//         rect2.top <= rect4.bottom)
+//     ) {
+//       setInterval(location.reload(), 1);
+//     }
+//   }
+
+//   setInterval(detectCollision, 100);
+// };
