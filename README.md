@@ -31,7 +31,9 @@ Pour plus d'informations et pour nous suivre sur d'autres plateformes :
 
 - Jeux : https://cyberjumplioxyze.netlify.app/
 
-Maquette du jeux : https://www.figma.com/file/bkKiFiRNjTfNDMXDlLoKE0/Maquette-CyberJump?type=design&node-id=0%3A1&mode=dev
+- Trello : https://trello.com/invite/b/jGLAvXoV/ATTIfb96dc6365ab40576bf3aae473452a8a7F5E7EAE/tableau-brief-2
+
+- Maquette du jeux : https://www.figma.com/file/bkKiFiRNjTfNDMXDlLoKE0/Maquette-CyberJump?type=design&node-id=0%3A1&mode=dev
 
 - Instagram: [Lien Instagram](https://www.instagram.com/lioxyze/)
 - Discord: [Lien Discord](https://discord.gg/XkrwNYER4q)
