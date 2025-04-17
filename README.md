@@ -10,7 +10,7 @@ La clé de la victoire réside dans votre agilité et votre rapidité. Pour saut
 
 Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire votre propre légende dans le monde de Cyber Jump !
 
-## Règles :
+## Règles 
 
 Dans ce duel en face-à-face, votre but est de rester en vie en évitant **Faraday**, votre redoutable adversaire.
 
