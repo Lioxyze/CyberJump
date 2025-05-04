@@ -13,7 +13,6 @@ Plongez dans l'action, défiez vos réflexes et affrontez Faraday pour écrire v
 ## Règles 
 
 Dans ce duel en face-à-face, votre but est de rester en vie en évitant **Faraday**, votre redoutable adversaire.
-
 ## Contrôles :
 
 - **Pour sauter :**
